@@ -1,0 +1,3 @@
+# Battleship!
+
+Simple JavaScript game
