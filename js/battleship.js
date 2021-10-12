@@ -1,7 +1,8 @@
 var view = {
     //this method takes a string message and displays it in the message area
     displayMessage: function (msg) {
-        //code to be supplied in  bit!
+        var messageArea = document.getElementById("messageArea");
+		messageArea.innerHTML = msg;
     }
     displayHit: function(location){
     	//code will go here
