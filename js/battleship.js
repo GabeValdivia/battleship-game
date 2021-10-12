@@ -5,9 +5,11 @@ var view = {
 		messageArea.innerHTML = msg;
     }
     displayHit: function(location){
-    	//code will go here
+    	var cell = document.getElementById(location);
+		cell.setAttribute("class","hit");
     },
     displayMiss: function(location){
-        //code will go here
+        var cell = document.getElementById(location);
+		cell.setAttribute("class","miss");
     }
 };
